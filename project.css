@@ -403,3 +403,43 @@ p {
     }
 }
 /* <!-- FOOTER END--> */
+
+.help h1 {
+    font-family: 'caprasimo';
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+.me {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.me p {
+    font-family: 'caprasimo';
+    font-size: 3em;
+}
+
+.wip {
+    font-family: 'caprasimo';
+    font-size: 6em;
+}
+
+.me a:hover{
+    color: rgb(194, 228, 0);
+}
+.please {
+    max-width: 1100px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
