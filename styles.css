@@ -617,8 +617,7 @@ figure {
 .text-section ul {
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
 }
 
 .text-section li {
