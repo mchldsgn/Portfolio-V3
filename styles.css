@@ -99,7 +99,8 @@ h1 {
 }
 
 .scroll-top:hover {
-	color:#1d1d1b ;
+	color:rgb(194, 228, 0);
+    font-size: 1.5em;
 	transform: scale(1);
 }
 
@@ -113,14 +114,18 @@ h1 {
     z-index: 3000;
 }
 .side-nav a {
+    font-size: 1.5em;
     color: #000000;
 }
 
-.fa {     
-	font-size: 1.3em;
-    color: #800000;
-    padding: 0 0 15px 0;
+.side-nav a:hover {
+    color: rgb(194, 228, 0);
 }
+
+/* .fa {     
+
+    padding: 0 0 15px 0;
+} */
 
 /* <!-- NAV BAR--> */
 .navbar {
@@ -618,6 +623,16 @@ figure {
 
 .text-section li {
     list-style: none;
+}
+
+.text-section li a {
+    font-size: 1.5em;
+    list-style: none;
+    color: #ffffff;
+}
+
+.text-section li a:hover {
+    color: rgb(194, 228, 0);
 }
 
 .form-section {
