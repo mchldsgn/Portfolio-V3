@@ -90,13 +90,12 @@ a, a:link, a:visited, a:hover {
     z-index: 3000;
 }
 .side-nav a {
+    font-size: 1.5em;
     color: #000000;
 }
 
-.fa {     
-	font-size: 2em;
-    color: #800000;
-    padding: 0 0 15px 0;
+.side-nav a:hover {
+    color: rgb(194, 228, 0);
 }
 
 /* <!-- NAV BAR--> */
@@ -260,9 +259,6 @@ hr {
     text-align: center;
 }
 
-/* .section {
-    margin-bottom: 10px;
-} */
 
 .content-box-work {
     width: 47%;
