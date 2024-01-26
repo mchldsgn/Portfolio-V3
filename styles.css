@@ -249,7 +249,7 @@ h1 {
 .intro-top {
     margin: 0 auto;
     text-align: center;
-    height: 70vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -290,8 +290,15 @@ h1 {
 
 span {
     color: rgb(194, 228, 0);
-    font-family: 'Caprasimo', sans-serif;
+    font-family: 'syne', sans-serif;
     font-weight: 300;
+}
+
+
+span:hover {
+    color: rgb(194, 228, 0);
+    font-family: 'syne', sans-serif;
+    font-weight: 800;
 }
 
 span.intro-2 {
@@ -417,7 +424,7 @@ button:hover{
     margin: 0 auto;
 }
 .content-box-port {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 100px;
     text-align: center;
 }
@@ -613,7 +620,8 @@ figure {
 .text-section ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 10px;
 }
 
 .text-section li {
@@ -631,8 +639,8 @@ figure {
 }
 
 .form-section {
-    flex: 1;
-    padding: 20px;
+    flex: 2;
+    padding: 25px;
     font-family: inherit;
 }
 
