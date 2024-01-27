@@ -226,30 +226,12 @@ h1 {
     }
 }
 
-/* <!-- ABOUT--> */
-.updown {
-    -webkit-animation: updown 2.5s infinite;
-    animation: updown 2.5s ease infinite;
-    display: inline-block
-}
-@keyframes updown {
-    0% {
-      transform: translateY(-15%);
-    }
-  
-    50% {
-      transform: translateY(15%);
-    }
-  
-    100% {
-      transform: translateY(-15%);
-    }
-}
+/* <STORE INTRO> */
 
 .intro-top {
     margin: 0 auto;
     text-align: center;
-    height: 80vh;
+    height: 50vh;
     position: relative;
 }
 
@@ -257,59 +239,19 @@ h1 {
     padding: 10em 0 0 0;
     margin: 0 auto;
     text-align: center;
-    width: 35%;
+    /* width: 35%; */
 }
 .intro-top-tagline p {
     font-family: 'climate crisis';
    font-size: 3em;
    font-weight: 400;
-   text-transform: lowercase;
+   text-transform: uppercase;
    letter-spacing: 3px;
 }
 
-.intro-bar {
-    background-color: #111111;
-    border: 8px solid #ffffff;
-    border-radius: 60px;
-    color: #ffffff;
-    box-shadow: 5px 5px 1px -3px rgba(15, 15, 15, 0.308);
-    padding: 10px;
-    /* transform: rotate(-6deg); */
-}
-
-.intro-bar-2 {
-    background-color: #c50000;
-    border: 8px solid #ec9b9b;
-    border-radius: 15px;
-    color: #ffffff;
-    box-shadow: 5px 5px 1px -3px rgba(15, 15, 15, 0.507);
-    padding: 10px;
-    transform: rotate(6deg);
-    float: right;
-}
-
-span {
-    color: rgb(194, 228, 0);
-    font-family: 'syne', sans-serif;
-    font-weight: 300;
-}
 
 
-span:hover {
-    color: rgb(194, 228, 0);
-    font-family: 'syne', sans-serif;
-    font-weight: 800;
-}
-
-span.intro-2 {
-    color: rgb(255, 255, 255);
-    font-family: 'syne', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-
-/* <!-- TOOLKIT-TLK AND FOOTER STYLES START--> */
+/* <!-- PRODUCT AND FOOTER STYLES START--> */
 .section-tlk-top, .section-ftr-top {
     background: url(assets/wave-border.png) repeat-x;
     background-size: 100%;
@@ -349,6 +291,12 @@ span.intro-2 {
     align-items: center;
 }
 
+.section-tlk-text p {
+    /* text-transform: uppercase; */
+    color: #F7F3E7;
+    font-size: 2em;
+    /* line-height: 1.5em; */
+}
 
 .section-tlk-text img {
     max-width: 100%; 
@@ -375,13 +323,15 @@ span.intro-2 {
     align-items: flex-start;
     text-align: left;
 }
-.section-tlk-text p, .section-ftr-text p {
+.section-ftr-text p {
     text-transform: uppercase;
     color: #F7F3E7;
     font-size: 1.1em;
     /* line-height: 1.5em; */
 }
-/* <!-- TOOLKIT-TLK AND FOOTER STYLES END--> */
+
+
+/* <!-- PRODUCT AND FOOTER STYLES END--> */
 
 button {
     -webkit-appearance: none;
@@ -412,17 +362,8 @@ button:hover{
 	cursor: pointer;
 }
 
-/* WORK-PROJECT SECTION *//* WORK-PROJECT SECTION *//* WORK-PROJECT SECTION */
+/* STORE*/
 
-.section-grey {
-    background: #FFEEE5;
-    height: auto;
-    background-size: 1000px;
-}
-.container-work {
-    max-width: 950px;
-    margin: 0 auto;
-}
 .content-box-port {
     /* padding-top: 40px; */
     padding-bottom: 100px;
@@ -461,8 +402,9 @@ p {
     line-height: 1.7em;
     margin-bottom: 15px;
 }
+
 hr {
-    border: 0;
+    border: 1px solid #ffffff;
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
@@ -474,265 +416,6 @@ h4 {
     font-family: 'climate crisis';
     text-transform: uppercase;
     letter-spacing: 0.1em;
-}
-
-
-figure {
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}
-
-.hover-img * {
-    box-sizing: border-box;
-}
-.hover-img {
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 45%;
-    box-sizing: border-box;
-    margin: 10px;
-    z-index: 1;
-}
-.hover-img:hover{
-    border-radius: 30px;
-
-}
-.hover-img img {
-    vertical-align: top;
-    max-width: 100%;
-    backface-visibility: hidden;
-    border-radius: 30px;
-    z-index: 0;
-}
-
-.hover-img:hover::before {
-    background: rgba(27, 27, 27, 0.973);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: '';
-    z-index: 1;
-    opacity: 1;
-    transform: scaleY(2);
-    -webkit-transition: opacity .5s ease;
-    -moz-transition: opacity .5s ease;
-}
-
-
-.hover-img figcaption {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0;
-    z-index: 2;
-    transform: skewY(-5deg);
-}
-
-.hover-img:hover figcaption {
-    opacity: 1;
-    -webkit-transition: opacity .5s ease;
-    -moz-transition: opacity .5s ease;
-  }
-
-
-.favorite-badge {
-    display: block;
-    position: absolute;
-    z-index: 2;
-    transform: rotate(-25deg);
-}
-
-/* .spin {
-    -webkit-animation: spin 12s infinite;
-    animation: spin 12s infinite linear;
-}
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-} */
-
-/* <!-- CONTACT SECTION--> */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-wrapper {
-    display: flex;
-    flex-direction: column; 
-    width: 100%;
-    padding: 35px 50px 35px -30px;
-    margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-    .form-wrapper {
-        flex-direction: row; 
-    }
-}
-
-@media (max-width: 480px) {
-    .form-wrapper {
-        gap: 1em; 
-        padding: 10px; 
-    }
-}
-.text-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-}
-
-.text-section p {
-    color:#111111;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    color: #fff;
-    text-transform: none;
-}
-
-.text-section h2 {
-    color:#111111;
-    font-family: 'climate crisis';
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 3em;
-    color: #fff;
-}
-
-.text-section ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 10px;
-}
-
-.text-section li {
-    list-style: none;
-}
-
-.text-section li a {
-    font-size: 1.5em;
-    list-style: none;
-    color: #ffffff;
-}
-
-.text-section li a:hover {
-    color: rgb(194, 228, 0);
-}
-
-.form-section {
-    flex: 2;
-    padding: 25px;
-    font-family: inherit;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    font-family: inherit;
-    max-width: 800px; 
-    margin: 0 auto; 
-}
-
-@media (max-width: 768px) {
-    .form-section {
-        padding: 10px; 
-    }
-
-    form {
-        max-width: 100%; 
-    }
-}
-
-@media (max-width: 480px) {
-    form {
-        padding: 10px; 
-    }
-}
-
-.form-group {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    font-family: inherit;
-}
-
-.form-group label {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    font-family: inherit;
-    color: #fff;
-}
-
-.form-group input {
-    padding: 0.8em;
-    font-size: 1em;
-    font-weight: 700;
-    border: 6px solid #fff;
-    border-radius: 3em;
-    font-family: inherit;
-}
-
-.form-group textarea {
-    padding: 0.8rem;
-    font-size: 1rem;
-    font-weight: 700;
-    border: 6px solid #ffffff;
-    border-radius: 2em;
-    resize: vertical;
-    font-family: inherit;
-}
-
-@media (max-width: 768px) {
-    .form-group textarea {
-        padding: 0.6rem; 
-        font-size: 0.9rem; 
-        border-radius: 1.5em; 
-    }
-}
-
-@media (max-width: 480px) {
-    .form-group textarea {
-        padding: 0.5rem; 
-        font-size: 0.8rem; 
-        border-radius: 1em; 
-    }
-}
-
-.form-group button {
-    letter-spacing: 3px;
-    width: 168px;
-}
-
-.form-group button:hover{
-    background-color: rgb(194, 228, 0);
-    color: #111111;
-	transition: 0.6s;
-	cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .form-wrapper {
-        flex-direction: column;
-    }
 }
 
 
