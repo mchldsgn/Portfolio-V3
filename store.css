@@ -236,7 +236,7 @@ h1 {
 }
 
 .intro-top-tagline {
-    padding: 10em 0 0 0;
+    padding: 3em 0 0 0;
     margin: 0 auto;
     text-align: center;
     /* width: 35%; */
@@ -249,7 +249,9 @@ h1 {
    letter-spacing: 3px;
 }
 
-
+.storeheader {
+    width: 6em;
+}
 
 /* <!-- PRODUCT AND FOOTER STYLES START--> */
 .section-tlk-top, .section-ftr-top {
