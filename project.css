@@ -400,6 +400,32 @@ p {
 }
 /* <!-- FOOTER END--> */
 
+.deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.deck p {
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 2em;
+    border-top: 3px solid black;
+    text-align: left; 
+    font-size: 15px;
+    /* background-color: rgb(255, 255, 255); */
+    flex-direction: column;
+    color: rgb(2, 2, 2);
+  }
+
+
 .help h1 {
     font-family: 'caprasimo';
     margin: 0 auto;
