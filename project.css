@@ -400,30 +400,57 @@ p {
 }
 /* <!-- FOOTER END--> */
 
-.deck {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
+
+.section-dv-top {
+    background: url(assets/wave-border.png) repeat-x;
+    background-size: 100%;
+    height: 50px;
+}
+.section-dv-btm {
+    background: url(assets/wave-border-btm.png) repeat-x;
+    background-size: 100%;
+    height: 90px;
 }
 
-.deck p {
-    font-weight: 800;
-    font-size: 1em;
-}
-
-.key {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    padding: 2em;
-    border-top: 3px solid black;
-    text-align: left; 
-    font-size: 15px;
-    /* background-color: rgb(255, 255, 255); */
-    flex-direction: column;
-    color: rgb(2, 2, 2);
+.port-trivia {
+    position: relative;
+    background: #111111;
   }
+  
+.mySlides {
+    display: none;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+  }
+  
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(194, 228, 0);
+  }
+
 
 
 .help h1 {
@@ -457,7 +484,7 @@ p {
 }
 
 .me a:hover{
-    color: rgb(194, 228, 0);
+    color:#C6F806;
 }
 .please {
     max-width: 1100px;
