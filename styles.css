@@ -618,10 +618,11 @@ figure {
 }
 
 .text-section ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .text-section li {
@@ -639,7 +640,7 @@ figure {
 }
 
 .form-section {
-    flex: 2;
+    width: 80%;
     padding: 25px;
     font-family: inherit;
 }
