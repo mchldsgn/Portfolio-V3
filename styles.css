@@ -58,9 +58,9 @@ a, a:link, a:visited, a:hover {
     text-transform: uppercase;
 }
 
-.gaming a {
+.gaming {
     font-family: 'syne', Arial, sans-serif;
-    color: #1b1b1b;
+    color: #a0da00;
     font-weight: 600;
 }
 
