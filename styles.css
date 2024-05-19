@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Climate+Crisis&family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Caprasimo&family=Climate+Crisis&family=Syne:wght@400;500;600;700;800&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -47,13 +47,26 @@ a, a:link, a:visited, a:hover {
     padding-top: 7px;
 }
 .featured-bar a {
-    font-family: 'Syne', Arial, sans-serif;
+    font-family: 'syne', Arial, sans-serif;
     color: #f9f3e8;
 }
 
 .featured-bar a:hover {
     font-family: 'syne', Arial, sans-serif;
+    font-weight: 800;
+    color: #a0da00;
+    text-transform: uppercase;
+}
+
+.gaming a {
+    font-family: 'syne', Arial, sans-serif;
+    color: #1b1b1b;
     font-weight: 600;
+}
+
+.gaming a:hover {
+    font-family: 'syne', Arial, sans-serif;
+    font-weight: 800;
     color: #a0da00;
     text-transform: uppercase;
 }
