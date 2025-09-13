@@ -9,8 +9,8 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-    background-color: #FFEEE5;
-    font: 16px 'syne', Arial, sans-serif;
+    background-color: #ffffff;
+    font: 16px 'Syne', Arial, sans-serif;
     color: #1b1b1b;
 }
 
@@ -38,7 +38,7 @@ a, a:link, a:visited, a:hover {
 .featured-bar {
     height: 40px;
     background: #1b1b1d;
-    color: #f9f3e8;
+    color: #ebb44d;
 }
 
 .featured-bar-text {
@@ -65,7 +65,7 @@ a, a:link, a:visited, a:hover {
 }
 
 .gaming a:hover {
-    font-weight: 800;
+    font-weight: 600;
     color: #a0da00;
 }
 
@@ -143,13 +143,16 @@ h1 {
     background-color: transparent;
     border-bottom: #111111 solid 2px;
     color: #111111;
-    font-family: 'climate crisis', 'syne';
-    font-size: 12px;
-    font-weight: 400;
+    font-family: 'syne';
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 0 6em 0 6em;
 }
 
+navbar:hover{
+color: rgb(194, 228, 0);
+}
 .brand-title {
     margin: .5rem;
     /* display: flex;
@@ -182,9 +185,10 @@ h1 {
     padding: 1rem;
 }
 
-/* .navbar-links li:hover {
-    background-color: #555;
-} */
+.navbar-links li a:hover {
+    color: rgb(194, 228, 0);
+    font-weight: 600;
+}
 
 .toggle-button {
     position: absolute;
@@ -280,7 +284,7 @@ h1 {
 
 .intro-bar {
     background-color: #111111;
-    border: 8px solid #ffffff;
+    /* border: 8px solid #111111; */
     border-radius: 60px;
     color: #ffffff;
     box-shadow: 5px 5px 1px -3px rgba(15, 15, 15, 0.308);
@@ -426,7 +430,7 @@ button:hover{
 /* WORK-PROJECT SECTION *//* WORK-PROJECT SECTION *//* WORK-PROJECT SECTION */
 
 .section-grey {
-    background: #FFEEE5;
+    background: #ffffff;
     height: auto;
     background-size: 1000px;
 }
@@ -482,9 +486,13 @@ hr {
     height: 10px;
 }
 h4 {
-    font-family: 'climate crisis';
+    font-family: 'syne';
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+h4 a:hover {
+    color: rgb(194, 228, 0);
 }
 
 
