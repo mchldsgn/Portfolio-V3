@@ -268,11 +268,11 @@ hr {
 }
 
 video, img {
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 video.two {
-    width: 50%;
+    width: 100%;
 }
 
 video {
@@ -291,11 +291,11 @@ img.two {
 .img-responsive {
     box-sizing: border-box;
     padding: 10px;
-    float: left;
+    /* float: left; */
 }
 .content-box-two-title {
-    position: relative;
-    width: 75%;
+    /* position: relative; */
+    width: 80%;
     margin: 0 auto;
     font-size: 1.1em;
     top: 160px;
@@ -317,6 +317,8 @@ h1 {
     text-transform: uppercase;
 }
 
+h4 {padding:15px;
+}
 
 p {
     font-family: "syne", Arial, sans-serif;
