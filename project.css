@@ -201,6 +201,24 @@ a, a:link, a:visited, a:hover {
     }
 }
 
+.updown {
+    -webkit-animation: updown 2.5s infinite;
+    animation: updown 2.5s ease infinite;
+    display: inline-block
+}
+@keyframes updown {
+    0% {
+      transform: translateY(-15%);
+    }
+  
+    50% {
+      transform: translateY(15%);
+    }
+  
+    100% {
+      transform: translateY(-15%);
+    }
+}
 
 button {
     -webkit-appearance: none;
@@ -264,7 +282,7 @@ hr {
     width: 47%;
     display: inline-block;
     box-sizing: border-box;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 
 video, img {
@@ -328,7 +346,9 @@ p {
     margin-bottom: 15px;
 }
 
-
+.spacing{
+    padding: 3em;
+}
 /* <!-- FOOTER START--> */
 
 .section-ftr-text {
